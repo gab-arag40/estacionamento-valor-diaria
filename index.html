@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Estacionamento - Diaria</title>
+</head>
+
+<body>
+    <img src="img/estacionamentoimg.jpg">
+    <h1>Dados do Cliente</h1>
+    <div class="form">
+        <input type="text" placeholder="Digite seu nome" style="width: 340px;" id="nome">
+        <div class="formdados">
+            <input type="text" placeholder="Digite sua placa" id="placa">
+            <input type="text" placeholder="Digite o modelo do carro" id="carro">
+        </div>
+        <div class="formdados2">
+            <input type="text" placeholder="Quantos dias ?" id="qntDias">
+            <input type="text" placeholder="Valor da diária" id="valorDiaria">
+        </div>
+    </div>
+    <h1>Resumo</h1>
+    <div class="formdados3">
+        <p id="resume"></p>
+        <p id="resume1"></p>
+        <p id="resume2"></p>
+        <p id="resume3"></p>
+        <h5 id="resume4"></h5>
+        <h5 id="resume5"></h5>
+    </div>
+    <div class="butao">
+        <button onClick="calcular()">Calcular</button>
+        <button><a href="index.html" style="text-decoration: none; color: black;">Limpar</a></button>
+        <button onClick="tchau()">Sair</button>
+    </div>
+</body>
+
+</html>
